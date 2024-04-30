@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    width: 100%;
+    height: 25vh;
+    border-bottom:0.5vh solid blue;
+    display: flex;
+    flex-direction: column;
+    font-family: "Orbitron", "sans-serif";
+    font-weight: 800;
+}
+
+.logoHeader{
+    width: 33%;
+    height: 13vh;
+    font-size: 10vh;
+    border:0.5vh solid #ff0000;
+    color:#c92100;
+    margin: 1vh;
+}
+
+.burguerMenu{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 38%;
+    height: auto;
+    font-size: 5vh;
+}
+
+#botonF1{
+    font-size: 5vh;
+    padding-right:2vh;
+    padding-left:2vh;
+    border-right:0.3vh solid #232323;
+    border-left:0.3vh solid #232323;
+}
+
+#botonMoto{
+    font-size: 4vh;
+    padding-right:2vh;
+    padding-left:2vh;
+    border-right:0.3vh solid #232323;
+}
+
+#botonIndy{
+    font-size: 4vh;
+    padding-right:2vh;
+    padding-left:2vh;
+    border-right:0.3vh solid #232323;
+}
+
+#botonWEC{
+    font-size: 4vh;
+    padding-right:2vh;
+    padding-left:2vh;
+    border-right:0.3vh solid #232323;
+}
